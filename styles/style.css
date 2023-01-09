@@ -266,7 +266,7 @@ span{
     width: 330px;
     height: 410px;
     border: 0;
-    background-color: #D5D2D2;
+    background-color: #f4efef;
     border-radius: 8px;
     text-align: left;
     box-shadow: 7px 7px 10px #5c5858;
@@ -284,4 +284,15 @@ span{
 .blog-card .card-description{
     padding-left: 10px;
     font-size: 15px;
+}
+
+/* footer section styles */
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    border: 0;
+}
+.main-box-footer{
+
 }
