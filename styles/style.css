@@ -204,7 +204,7 @@ span{
     height: 180px;
     background-color:#F52C2C;
     display: flex;
-    margin: -90px auto 0 auto;
+    margin: -90px auto 50px auto;
     border: 0;
     border-radius: 15px;
 }
@@ -249,4 +249,39 @@ span{
     height: 70px;
     font-size: 20px;
     margin-left: 15px;
+}
+
+/* blog-card styles */
+.parent-card{
+    width: 88%;
+    height: 420px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 6% 40px 6%;
+    border: 0;
+    padding: 0;
+    align-items: center;
+}
+.blog-card{
+    width: 330px;
+    height: 410px;
+    border: 0;
+    background-color: #D5D2D2;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 7px 7px 10px #5c5858;
+}
+.blog-card img{
+    width: 330px;
+    height: 200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.blog-card .card-title{
+    padding: 25px 0 10px 10px;
+    font-size: 20px;
+}
+.blog-card .card-description{
+    padding-left: 10px;
+    font-size: 15px;
 }
